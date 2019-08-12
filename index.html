@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Tellimusleht</title>
+		
+		<!-- Bootstrap 4 -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+		<!-- Spreadsheet plugin -->
+		<script src="js/tabular-input.js"></script>
+		<link href="css/tabular-input.css" rel="stylesheet" type="text/css">
+
+		<!-- Datetimepicker plugin -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.min.js"></script>  
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" /> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+	<h1>Tellimusleht</h1>
+	<br/>
+ 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://holgerhansson.github.io/success.html';}"></iframe>
+	<form id="tellimus" action="https://docs.google.com/forms/d/e/1FAIpQLScrvefaXa8d_CvRBtrvNRvwhNBuVEbi2ETrLQI2exIyt_-clA/formResponse" method="post" target="hidden_iframe" class="form-horizontal" onsubmit="submitted=true;" >
+	  <div class="form-group">
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Tellimuse esitaja:</label>
+		  <div class="col-sm-9">
+		    <input name="entry.733340881" type="text" maxlength="30" required class="form-control" placeholder="Nimi" />
+		  </div>
+		</div>
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Objekt:</label>
+		  <div class="col-sm-9">
+		    <input name="entry.1612609534" type="text" maxlength="50" class="input1 form-control" placeholder="Objekt" />
+		    <input name="entry.1377057919" type="text" style="display:none" maxlength="50" class="input2 form-control" placeholder="Objekt" />
+		    <input name="entry.1789484772" type="text" style="display:none" maxlength="50" class="input3 form-control" placeholder="Objekt" />
+		    <input name="entry.295525651" type="text" style="display:none" maxlength="50" class="input4 form-control" placeholder="Objekt" />
+		    <input name="entry.473226529" type="text" style="display:none" maxlength="50" class="input5 form-control" placeholder="Objekt" />
+		    <input name="entry.2001567445" type="text" style="display:none" maxlength="50" class="input6 form-control" placeholder="Objekt" />
+		    <input name="entry.1491264297" type="text" style="display:none" maxlength="50" class="input7 form-control" placeholder="Objekt" />
+		    <input name="entry.1435633085" type="text" style="display:none" maxlength="50" class="input8 form-control" placeholder="Objekt" />
+		    <input name="entry.1710483280" type="text" style="display:none" maxlength="50" class="input9 form-control" placeholder="Objekt" />
+		    <input name="entry.1332272467" type="text" style="display:none" maxlength="50" class="input10 form-control" placeholder="Objekt" />
+		  </div>
+		</div>
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Nimetus:</label>
+		  <div class="col-sm-9">
+		    <textarea name="entry.1191580636" type="text" rows="5" maxlength="500" class="input1 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.376755181" type="text" rows="5" style="display:none" maxlength="500" class="input2 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.1632031578" type="text" rows="5" style="display:none" maxlength="500" class="input3 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.804128384" type="text" rows="5" style="display:none" maxlength="500" class="input4 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.999789142" type="text" rows="5" style="display:none" maxlength="500" class="input5 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.1511577485" type="text" rows="5" style="display:none" maxlength="500" class="input6 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.286063755" type="text" rows="5" style="display:none" maxlength="500" class="input7 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.1540370486" type="text" rows="5" style="display:none" maxlength="500" class="input8 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.615996499" type="text" rows="5" style="display:none" maxlength="500" class="input9 form-control" placeholder="Nimetus" ></textarea>
+		    <textarea name="entry.1659801054" type="text" rows="5" style="display:none" maxlength="500" class="input10 form-control" placeholder="Nimetus" ></textarea>
+		  </div>
+		</div>
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Kogus:</label>
+		  <div class="col-sm-9">
+		    <input name="entry.1971140763" type="text" maxlength="50" class="input1 form-control" placeholder="Kogus" />
+		    <input name="entry.46118002" type="text" style="display:none" maxlength="50" class="input2 form-control" placeholder="Kogus" />
+		    <input name="entry.1456936109" type="text" style="display:none" maxlength="50" class="input3 form-control" placeholder="Kogus" />
+		    <input name="entry.138892497" type="text" style="display:none" maxlength="50" class="input4 form-control" placeholder="Kogus" />
+		    <input name="entry.1714823104" type="text" style="display:none" maxlength="50" class="input5 form-control" placeholder="Kogus" />
+		    <input name="entry.1424191584" type="text" style="display:none" maxlength="50" class="input6 form-control" placeholder="Kogus" />
+		    <input name="entry.1820204641" type="text" style="display:none" maxlength="50" class="input7 form-control" placeholder="Kogus" />
+		    <input name="entry.617541932" type="text" style="display:none" maxlength="50" class="input8 form-control" placeholder="Kogus" />
+		    <input name="entry.87653153" type="text" style="display:none" maxlength="50" class="input9 form-control" placeholder="Kogus" />
+		    <input name="entry.1405972634" type="text" style="display:none" maxlength="50" class="input10 form-control" placeholder="Kogus" />
+		  </div>
+		</div>
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Kellele on kaup mõeldud?</label>
+		  <div class="col-sm-9">
+		    <input name="entry.181448582" type="text" maxlength="30" class="input1 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.1707108099" type="text" style="display:none" maxlength="30" class="input2 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.636253463" type="text" style="display:none" maxlength="30" class="input3 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.1338592207" type="text" style="display:none" maxlength="30" class="input4 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.466403272" type="text" style="display:none" maxlength="30" class="input5 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.1941771948" type="text" style="display:none" maxlength="30" class="input6 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.1845014724" type="text" style="display:none" maxlength="30" class="input7 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.1524549996" type="text" style="display:none" maxlength="30" class="input8 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.2010693752" type="text" style="display:none" maxlength="30" class="input9 form-control" placeholder="Isiku nimi" />
+		    <input name="entry.2044978258" type="text" style="display:none" maxlength="30" class="input10 form-control" placeholder="Isiku nimi" />
+		  </div>
+		</div>
+		<div class="form-group row">
+		  <label class="col-form-label col-sm-3">Millal on tellimust vaja?</label>
+		  <div class="col-sm-9 date">
+		    <input name="entry.1537277022" type="text" id='datetimepicker' required class="form-control" placeholder="DD/MM/YYYY"/>
+		  </div>
+		</div>
+		<input type="button" id="form_to_table" class="btn btn-primary" value="Lisa tellimuslehele"/>
+	  </div>
+	</form>
+
+	<div id="overview">
+	</div><br>
+	<br>
+
+	<div class="btn-group">
+		<button id="delRow" type='button' onClick='javascript:$("#overview").tabularInput("deleteRow")' class="btn btn-primary">Eemalda viimane rida</button>
+		<input id="sendBtn" type="submit" class="btn btn-success" value="Saada tellimus" form="tellimus"/>
+	</div>
+	
+	</div>
+	</div>
+
+	<script type="text/javascript">
+
+	jQuery('#overview').tabularInput({
+		'rows': 1,
+		'columns': 4,
+		'animate': true,
+		'columnHeads': ['Objekt', 'Nimetus', 'Kogus', 'Kellele'],
+		'name': 'tellimusLeht',
+		'maxRows': 10
+	});
+
+	</script>
+
+	<!-- Custom scripts -->
+	<script src="js/ftt.js"></script>
+
+</body>
+</html>
